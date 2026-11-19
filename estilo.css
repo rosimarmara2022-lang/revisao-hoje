@@ -1,0 +1,34 @@
+body {
+ /* CRIE UMA PROPRIEDADE PARA A COR DE FUNDO */
+ /* CRIE UMA PROPRIEDADE PARA A COR DO TEXTO */
+ /* CRIE UMA PROPRIEDADE PARA FONTE E TAMANHO DO TEXTO */
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  /* CRIE UMA PROPRIEDADE PARA A COR DOS TÍTULOS */
+}
+
+.cartao {
+  background-color: #41b632;      /* MUDE A COR DO CARTÃO */
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 600px;
+}
+
+.area-imagem {
+  text-align: center;
+}
+
+.foto-destaque {
+  width: 250px;
+  /* COMPLETE AQUI: adicione border e border-radius */
+}
+
+/* =================================================
+   SUA VEZ! CRIE SUAS REGRAS ABAIXO:
+   1. Estilize o fieldset (border, padding)
+   2. Estilize o button (background-color, color, padding, border: none, cursor: pointer)
+   3. Crie input:focus, button:focus com outline visível!
+   ================================================= */

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Revisão de Hoje - pizzaria</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <header>
+    <h1>pizzaria</h1>
+  </header>
+  <main>
+    <section class="cartao">
+      <h2>Sobre a pizzaria</h2>
+      <div class="area-imagem">
+        <!-- PASSO 1: Preencha o alt descrevendo a imagem para o NVDA -->
+        <img src="pizza.jpg" alt="imagem de uma pizza inteira"
+          class="foto-destaque">
+               
+      </div>
+      <p>Vendemos a pizza de segunda a domingo, a melhor em sabor, crocância e preço.</p>
+      <h3>Destaque da semana</h3>
+      <ul>
+        <li>Sabor de frango e bacon.</li>
+        <li>sabor de cinco queijos.</li>
+      </ul>
+      <form>
+        <h3>Formulário de Cadastro ou Pedido</h3>
+        <p>
+          <label for="nome-usuario">Nome e sobrenome:</label>
+          <!-- PASSO 2 (Parte A): Adicione o atributo required neste input -->
+          <input type="text" id="nome-usuario" minlength="3" aria-describedby="dica-nome">
+          <small id="dica-nome" aria-required="Nome">Exemplo.</small>
+        </p>
+        <p>
+          <!-- PASSO 3: Ligue este label ao input usando for="email-usuario" e id="email-usuario" -->
+          <label>Seu E-mail:</label>
+          <input type="Email.">
+        </p>
+        <fieldset>
+          <legend>Escolha UMA opção (Telefone):</legend>
+          <input type="radio" id="op1" name="escolha" value="opcao1">
+          <label for="op1">Uma pizza grande e um refrigerante</label><br>
+          <input type="radio" id="op2" name="escolha" value="opcao2">
+          <label for="op2">Uma pizza grande e uma média</label>
+        </fieldset>
+        <fieldset>
+          <legend>Marque quantas opções quiser (Wattsapp):</legend>
+          <input type="checkbox" id="check1" name="extras" value="item1">
+          <label for="check1">Pizza doce e um suco</label><br>
+          <input type="checkbox" id="check2" name="extras" value="item2">
+          <label for="check2">Pizza salgada e um refrigerante</label>
+        </fieldset>
+        <!-- PASSO 2 (Parte B):  identifique o que falta neste botão -->
+        <button>Enviar</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Exercício de Revisão - Feito em aula</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
